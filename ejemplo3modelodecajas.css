@@ -1,0 +1,39 @@
+header{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 60px;
+    border: 10px solid darkblue;
+    margin-bottom:  30px; 
+}
+
+main{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid darkcyan;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width:  600px;
+    min-width: 300;
+    overflow: scroll;
+    
+
+    width: 600px;
+    height: 400px;
+} 
+footer{
+    padding: 20px 50px 100px 150px;
+    border: 10px solid darkblue;
+}
+
+.fondo-amarillo{
+    background-color: yellow;
+}
+.fondo-azul{
+    background-color: blue;
+}
+.texto-blanco{
+    background-color: white;
+}

@@ -1,0 +1,24 @@
+/*este es un comentario*/
+/*selector de id*/
+p{
+    text-transform: uppercase;
+}
+/*selector de id aplica solo un estio al elemnto qur comenta el id
+*/
+#p2 {
+    color: red;
+}
+
+    /*selector de clase aplica a un estilo a todos los elementos que 
+    tengan el atributo class*/
+    
+    .subrayado{
+        text-decoration: underline;
+    }
+    h,p{
+        font-family: Arial, ;
+        border: 1px solid lightgray;
+    }
+    body { 
+        background-color: blue
+    }

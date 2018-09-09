@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cifra {
+    float: right;
+    width: 300px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;   
+    margin: 0 20px;
+
+}
+
+.titulo{
+    background-color: #efefef;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+.p{
+    margin-top: 100px;
+    /*z-index: 10px;*/
+   /* position:  relative;*/
+    top: 100px;
+
+}
+.se{
+    position: relative;
+    left: 30px;
+    width: 750;
+}

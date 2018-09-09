@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.res{
+    background-color: yellow;
+    padding: 20px;
+    border:  1px solid black;
+}
+#bloque{
+    display: block;
+}
+#bloque-en-linea{
+    
+}
