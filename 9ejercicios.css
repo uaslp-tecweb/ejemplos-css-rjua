@@ -1,0 +1,38 @@
+cuerpo {
+    familia de fuentes : Helvetica , Arial ;
+    margen : 0  auto ;
+}
+
+
+h1 {
+    ancho : 100 % ;
+}
+
+
+h2 {
+    margen : 0 ;
+}
+
+
+div {
+    relleno superior : 0 ;
+    margen : 0 ;
+}
+
+
+.list {
+    flotar : derecho ;
+    ancho : 30 % ;
+}
+
+
+.col1 {
+    flotar : izquierda ;
+    ancho : 30 % ;
+}
+
+
+.col2 {
+    margen : 0  auto ;
+    ancho : 30 % ;
+}
