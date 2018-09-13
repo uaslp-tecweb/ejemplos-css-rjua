@@ -1,0 +1,22 @@
+/*aplica estilo en pantallas*/
+@media screen and(max-width: 600px){
+body{
+    background-color: cyan;
+}
+}
+@media screen
+and(max-width: 601px)
+and(max-width: 800px)
+{
+body{
+    background-color: red;
+}}
+/*tarea modificar ejercicio columnas para que incorpore mediaquiers considerando que aparesca 3 columnas para mayores 800px
+2columnas de 600 y menor que 800
+1 pa los que sean menores que 600
+/*
+@media print{
+    body{
+        background-color: white;
+    }
+}*/

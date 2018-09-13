@@ -1,0 +1,6 @@
+ul > ol{
+    color: blue;
+}
+#primero ~ p{
+    color: red;
+}

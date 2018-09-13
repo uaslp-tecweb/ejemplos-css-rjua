@@ -15,24 +15,33 @@ h2 {
 
 
 div {
-    relleno superior : 0 ;
-    margen : 0 ;
+     : 0 ;
+    margin : 0 ;
 }
 
 
 .list {
-    flotar : derecho ;
-    ancho : 30 % ;
+    float : derecho ;
+     width:  30% ;
 }
 
 
 .col1 {
-    flotar : izquierda ;
-    ancho : 30 % ;
+    float : izquierda ;
+    width:  30% ;
 }
 
 
 .col2 {
-    margen : 0  auto ;
-    ancho : 30 % ;
+    margin : 0  auto ;
+    width:  30% ;
+}
+
+.col{
+    margin: 0 auto;
+    width: 30%;
+}
+
+footer{
+    clear: both;
 }
