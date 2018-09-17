@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+}
+table{
+    background: blue;
+    border-collapse: collapse;
+    border: 20px solid red;
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    
+}

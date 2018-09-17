@@ -4,19 +4,24 @@ body{
     background-color: cyan;
 }
 }
-@media screen
+@media screen and(min-width: 601px) and (max-width: 800px){
+    body{
+        background-color: red;
+    }
+}
+/*
 and(max-width: 601px)
 and(max-width: 800px)
 {
 body{
     background-color: red;
-}}
+}}*/
 /*tarea modificar ejercicio columnas para que incorpore mediaquiers considerando que aparesca 3 columnas para mayores 800px
 2columnas de 600 y menor que 800
 1 pa los que sean menores que 600
-/*
+*/
 @media print{
     body{
         background-color: white;
     }
-}*/
+}

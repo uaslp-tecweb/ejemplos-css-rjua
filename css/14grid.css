@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+}
+
+.container{
+    display: grid;
+    height: 100%;
+    grid-gap: 5px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 50px auto 50px; 
+}
+
+.header, .footer{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: gold;
+}
+
+.content{
+    grid-column-start: 2;
+    grid-column-end: -1;
+    background-color: green;
+}
+
+.menu{
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    background-color: black;
+    color: white;
+}
+
+/* .footer{
+    background-color: blue;
+} */
+
+.container > div{
+    padding: 30px;
+    font-size: 25px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+/* .container > div:nth-child(even){
+    background-color: gold;
+}
+.container > div:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+ */
