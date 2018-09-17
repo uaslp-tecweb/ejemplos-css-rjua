@@ -5,27 +5,31 @@ header{
     padding-right: 60px;
     border: 10px solid darkblue;
     margin-bottom:  30px; 
+    box-sizing: border-box;
 }
 
 main{
-    margin-top: 20px;
+    /*margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid darkcyan;
+    margin-bottom: 30px;*/
+    margin: 20px auto;
     text-align: center;
+    padding: 20px 50px 20px 50px;
+    border: 10px solid darkcyan;
+    width: 600px;
+    height: 300px;
+    max-width: 1000px;
+    min-width: 300px;
     border-radius: 10px;
     box-sizing: border-box;
-    max-width:  600px;
-    min-width: 300;
     overflow: scroll;
-    
-
-    width: 600px;
-    height: 400px;
 } 
 footer{
     padding: 20px 50px 100px 150px;
     border: 10px solid darkblue;
+    margin: 20px auto;
+    box-sizing: border-box;
 }
 
 .fondo-amarillo{
@@ -35,5 +39,5 @@ footer{
     background-color: blue;
 }
 .texto-blanco{
-    background-color: white;
+    color: white;
 }

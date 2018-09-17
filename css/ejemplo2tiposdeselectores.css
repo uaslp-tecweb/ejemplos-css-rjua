@@ -1,0 +1,27 @@
+/* This is a comment */
+
+/* Universal Selector */
+
+body {
+    background-color: #2F2F2F;
+    color: white;
+}
+
+/* Selector Type: applies the same
+style to every element with the same tag*/
+#p1 {
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+/* ID Selector: applies the style
+only to the one with the ID */
+#p2{
+    color: green;
+}
+
+/*Class Selector: applies the style to
+every element with the class attribute */
+.subrayado{
+    text-decoration: underline;
+}

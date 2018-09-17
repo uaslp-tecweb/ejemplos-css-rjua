@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    color: yellow;
+    
+}
+
+table{
+    background: white;
+    border-collapse: collapse;
+    border: 20px solid white;
+    width: 340px;
+    height: 340px;
+    
+}
+
+td{
+    width: 100px;
+    height: 100px;
+}
+
+.top{
+    border-top: 0px solid black;
+    border-bottom: 2px solid black;
+}
+
+#tL{
+    border-right: 2px solid black;
+}
+
+#tM{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#tR{
+    border-left: 2px solid black;
+}
+
+.md{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+#mL{
+    border-right: 2px solid black;
+}
+
+#mM{
+    border: 2px solid black;
+}
+
+#mR{
+    border-left: 2px solid black;
+}
+
+.boton{
+    border-top: 2px solid black;
+}
+
+#bL{
+    border-right: 2px solid black;
+}
+
+#bM{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#bR{
+    border-left: 2px solid black;
+}
+
